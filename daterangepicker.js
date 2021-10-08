@@ -365,8 +365,6 @@
         }
 
         if (!this.timePicker) {
-            this.startDate = this.startDate.startOf('day');
-            this.endDate = this.endDate.endOf('day');
             this.container.find('.calendar-time').hide();
         }
 
